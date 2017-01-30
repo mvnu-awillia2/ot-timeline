@@ -11,16 +11,36 @@ body {
 	background-color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 15px;
+h6 {
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
 }
 
 .container {
-	margin: 20px auto;
-	max-width: 800px;
+	width: 6000px;
 }
 
 #timeframe {
 	background-color: white;
 	width: 6000px;
+}
+
+#key {
+    background-color: white;
+    margin-left: 50px;
+    padding-left: 50px;
+    text-align: center;
+    width: 200px;
+}
+
+#key hr {
+    width: 200px;
 }
