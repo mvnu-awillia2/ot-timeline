@@ -299,6 +299,31 @@
 		},
 		]
 	};
+    var ot_events = {
+        name: "Major Events",
+        color: "black",
+        events: [
+        {
+            name: "The Split of the Northern and Soutern Kingdoms",
+            date: "-931/01/01",
+            reference: "1 Kings 12",
+            color: "purple",
+        },
+        {
+            name: "The Fall of Samaria",
+            date: "-722/01/01",
+            reference: "2 Kings 17",
+            color: "red",
+        },
+        {
+            name: "The Fall of Jerusalem",
+            date: "-586/01/01",
+            reference: "2 Kings 25",
+            color: "blue",
+        },
+        ]
+    };
+
 	
 	var t = Timeframe("#timeframe")
 		//.changeColor("blue")
@@ -308,6 +333,7 @@
 		.addCategory(israel_kings)
 		.addCategory(israel_kings2)
 		.addCategory(israel_kings3)
+        .addCategory(ot_events)
 		//.addCategory(blank4)
 		.start("-970/01/01")
 		.end("-580/01/01")
